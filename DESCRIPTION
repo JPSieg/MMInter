@@ -1,0 +1,15 @@
+Package: MMInter
+Title: Divalent metal cation-metabolite interaction model
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jacob", "Sieg", , "jus841@psu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Models divalent metal cation-metabolite interactions. Compiles a tidyformatted data set from a mysql formatted NIST46 database (https://doi.org/10.18434/M32154) provided by Donald Burgess at NIST. Calculates apparant Kds and assembles a machine solvable interaction model. Code, tables, and figures from my paper are available. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
