@@ -1,0 +1,103 @@
+Updated,Metabolite,Equilibrium,Log_K,Temperature,Ionic strength,dH,dH Temperature,dH Ionic strength,dS,dS Temperature,dS Ionic strength,X.charge,Citation
+,6-P-gluconic acid,logK_H2L/H.HL,,,,,,,,,,,
+Y,ATP,logK_H2L/H.HL,4.06,25,0.1,-3.7,25,0,6,25,0.1,,V2
+,dTTP,logK_H2L/H.HL,,,,,,,,,,,
+,"Fructose 1,6-BP",logK_H2L/H.HL,,,,,,,,,,,
+,Glucose 6-P,logK_H2L/H.HL,,,,,,,,,,,
+,Glutathione,logK_H2L/H.HL,,,,,,,,,,,
+,GTP,logK_H2L/H.HL,,,,,,,,,,,
+Y,L-Aspartic acid,logK_H2L/H.HL,3.7,25,0.1,-1.3,25,0,13,25,0.1,,V1
+Y,L-Glutamic acid,logK_H2L/H.HL,4.2,25,0.1,-1,25,0,16,25,0.1,,V1
+Y,L-Glutamine,logK_H2L/H.HL,2.17,25,0.1,-0.1,25,0,10,25,0.1,,V1
+Y,L-Valine,logK_H2L/H.HL,2.26,25,0.1,-0.1,25,0,,,,,V1
+,Pyruvic acid,logK_H2L/H.HL,,,,,,,,,,,
+,UDP-GlcNAC,logK_H2L/H.HL,,,,,,,,,,,
+,UTP,logK_H2L/H.HL,,,,,,,,,,,
+,diOH-ACN-P,logK_H2L/H.HL,,,,,,,,,,,
+,6-P-gluconic acid,logK_H3L/H.H2L,,,,,,,,,,,
+,ATP,logK_H3L/H.H2L,1.9,25,0.1,,,,,,,,
+,dTTP,logK_H3L/H.H2L,,,,,,,,,,,
+,"Fructose 1,6-BP",logK_H3L/H.H2L,,,,,,,,,,,
+,Glucose 6-P,logK_H3L/H.H2L,,,,,,,,,,,
+,Glutathione,logK_H3L/H.H2L,2.08,25,0.1,,,,,,,,
+,GTP,logK_H3L/H.H2L,1.9,25,0.1,,,,,,,,
+Y,L-Aspartic acid,logK_H3L/H.H2L,1.93,25,0.1,-1.8,25,0,3,25,0.1,,V1
+Y,L-Glutamic acid,logK_H3L/H.H2L,2.18,25,0.1,0.1,25,0,10,25,0,,V1
+,Pyruvic acid,logK_H3L/H.H2L,,,,,,,,,,,
+,UDP-GlcNAC,logK_H3L/H.H2L,,,,,,,,,,,
+,UTP,logK_H3L/H.H2L,,,,,,,,,,,
+,diOH-ACN-P,logK_H2L/H.HL,,,,,,,,,,,
+,6-P-gluconic acid,logK_HL/H.L,,,,,,,,,,,
+Y,ATP,logK_HL/H.L,6.51,25,0.1,1.2,25,0,34,25,0.1,-4,
+,dTTP,logK_HL/H.L,,,,,,,,,,-4,
+,"Fructose 1,6-BP",logK_HL/H.L,,,,,,,,,,-4,
+,Glucose 6-P,logK_HL/H.L,,,,,,,,,,-2,
+,Glutathione,logK_HL/H.L,,,,,,,,,,-2,
+,GTP,logK_HL/H.L,,,,,,,,,,-4,
+Y,L-Aspartic acid,logK_HL/H.L,9.63,25,0.1,-9,25,0,14,25,0.1,-2,V1
+Y,L-Glutamic acid,logK_HL/H.L,9.59,25,0.1,-10,25,0,16,25,0.1,-2,V1
+Y,L-Glutamine,logK_HL/H.L,9.01,25,0.1,,,,,,,-1,V1
+Y,L-Valine,logK_HL/H.L,9.49,25,0.1,-10.8,25,0.1,8,25,0.1,-1,V1
+,Pyruvic acid,logK_HL/H.L,,,,,,,,,,-1,
+,UDP-GlcNAC,logK_HL/H.L,,,,,,,,,,,
+Y,UTP,logK_HL/H.L,6.6,25,0.1,2,25,0,41,25,0,-4,V2
+,6-P-gluconic acid,logK_MgL/Mg.L,,,,,,,,,,,
+Y,ATP,logK_MgL/Mg.L,4.06,25,0.1,4.5,25,0,34,25,0.1,,V2
+,dTTP,logK_MgL/Mg.L,,,,,,,,,,,
+,"Fructose 1,6-BP",logK_MgL/Mg.L,,,,,,,,,,,
+,Glucose 6-P,logK_MgL/Mg.L,,,,,,,,,,,
+,Glutathione,logK_MgL/Mg.L,,,,,,,,,,,
+,GTP,logK_MgL/Mg.L,,,,,,,,,,,
+Y,L-Aspartic acid,logK_MgL/Mg.L,2.43,25,0.1,,,,,,,,V1
+Y,L-Glutamic acid,logK_MgL/Mg.L,1.9,25,0.1,,,,,,,,V1
+,L-Glutamine,logK_MgL/Mg.L,,,,,,,,,,,
+,L-Valine,logK_MgL/Mg.L,,,,,,,,,,,
+,Pyruvic acid,logK_MgL/Mg.L,,,,,,,,,,,
+,UDP-GlcNAC,logK_MgL/Mg.L,,,,,,,,,,,
+Y,UTP,logK_MgL/Mg.L,4.02,25,0.1,4.4,30,0.2,33,23,0.1,,V2
+,diOH-ACN-P,logK_MgL/Mg.L,,,,,,,,,,,
+,6-P-gluconic acid,logK_MnL/Mn.L,,,,,,,,,,,
+Y,ATP,logK_MnL/Mn.L,4.76,25,0.1,-2,25,0.1,12,25,0,,V2
+,dTTP,logK_MnL/Mn.L,,,,,,,,,,,
+,"Fructose 1,6-BP",logK_MnL/Mn.L,,,,,,,,,,,
+,Glucose 6-P,logK_MnL/Mn.L,,,,,,,,,,,
+,Glutathione,logK_MnL/Mn.L,,,,,,,,,,,
+,GTP,logK_MnL/Mn.L,,,,,,,,,,,
+Y,L-Aspartic acid,logK_MnL/Mn.L,3.7,25,0.1,,,,,,,,V1
+,L-Glutamic acid,logK_MnL/Mn.L,,,,,,,,,,,
+Y,L-Glutamine,logK_MnL/Mn.L,2.86,25,3,,,,,,,,V1
+Y,L-Valine,logK_MnL/Mn.L,2.31,37,0.15,,,,,,,,V1
+,Pyruvic acid,logK_MnL/Mn.L,,,,,,,,,,,
+,UDP-GlcNAC,logK_MnL/Mn.L,,,,,,,,,,,
+,UTP,logK_MnL/Mn.L,,,,,,,,,,,
+,diOH-ACN-P,logK_MnL/Mn.L,,,,,,,,,,,
+,6-P-gluconic acid,logK_CaL/Ca.L,,,,,,,,,,,
+Y,ATP,logK_CaL/Ca.L,3.77,25,0.1,-1,25,0.1,12,25,0.1,,
+,dTTP,logK_CaL/Ca.L,,,,,,,,,,,
+,"Fructose 1,6-BP",logK_CaL/Ca.L,,,,,,,,,,,
+,Glucose 6-P,logK_CaL/Ca.L,,,,,,,,,,,
+,Glutathione,logK_CaL/Ca.L,,,,,,,,,,,
+,GTP,logK_CaL/Ca.L,,,,,,,,,,,
+Y,L-Aspartic acid,logK_CaL/Ca.L,1.6,25,0.1,,,,,,,,V1
+Y,L-Glutamic acid,logK_CaL/Ca.L,1.43,25,0.1,,,,,,,,V1
+,L-Glutamine,logK_CaL/Ca.L,,,,,,,,,,,
+,L-Valine,logK_CaL/Ca.L,,,,,,,,,,,
+,Pyruvic acid,logK_CaL/Ca.L,,,,,,,,,,,
+,UDP-GlcNAC,logK_CaL/Ca.L,,,,,,,,,,,
+,UTP,logK_CaL/Ca.L,,,,,,,,,,,
+,diOH-ACN-P,logK_CaL/Ca.L,,,,,,,,,,,
+,6-P-gluconic acid,logK_ZnL/Zn.L,,,,,,,,,,,
+Y,ATP,logK_ZnL/Zn.L,4.85,25,0.1,-3,25,0,13,25,0.1,,
+,dTTP,logK_ZnL/Zn.L,,,,,,,,,,,
+,"Fructose 1,6-BP",logK_ZnL/Zn.L,,,,,,,,,,,
+,Glucose 6-P,logK_ZnL/Zn.L,,,,,,,,,,,
+,Glutathione,logK_ZnL/Zn.L,,,,,,,,,,,
+,GTP,logK_ZnL/Zn.L,,,,,,,,,,,
+Y,L-Aspartic acid,logK_ZnL/Zn.L,5.84,30,0.1,,,,,,,,V1
+,L-Glutamic acid,logK_ZnL/Zn.L,,,,,,,,,,,
+Y,L-Glutamine,logK_ZnL/Zn.L,4.83,25,3,,,,,,,,V1
+Y,L-Valine,logK_ZnL/Zn.L,4.45,37,0.15,,,,,,,,V1
+,Pyruvic acid,logK_ZnL/Zn.L,,,,,,,,,,,
+,UDP-GlcNAC,logK_ZnL/Zn.L,,,,,,,,,,,
+,UTP,logK_ZnL/Zn.L,,,,,,,,,,,
+,diOH-ACN-P,logK_ZnL/Zn.L,,,,,,,,,,,
