@@ -40,6 +40,15 @@ This code has been implemented on Mac, Windows, and Ubuntu (Linux) oporating sys
 
 You will need an R environment with the following packages installed:
 
+    r-devtools
+    r-tidyverse
+    r-cowplot
+    r-usethis
+    r-nleqslv
+    r-viridis
+    r-ggpmisc
+    r-ggpmisc
+
 ### 2.) Graphical user interface (ish) implementation
 
 ### 3.) Bash implementation
