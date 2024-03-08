@@ -67,9 +67,21 @@ This route assumes that the user does not have very much computational experienc
 
     install.packages("devtools", "tidyverse", "cowplot", "usethis", "nleqslv", "viridis", "ggpmisc", "ggpmisc")
 
-7.) You are now ready to reproduce the figures. For example, click file then open "Figures_Tables/Figure_2/
+7.) You are now ready to reproduce the figures. For example, click file then open "Figures_Tables/Solving script.R". The script will pop up in the top panel of Rstudio. You can implement the code line-by-line in the interactive console in the bottom panel by placing your cursor on the line you want to implement and hitting [ctrl]+[enter] (Windows & Linux) or [command]+[enter] (Mac).
 
 ### 3.) Bash implementation
+
+This route is probably easier for a user with more computational experience.
+
+1.) Install the dependencies in a dedicated R environment.
+
+2.) Clone the repository.
+
+    git clone https://github.com/JPSieg/MMInter/
+
+3.) 
+
+
 
 ### 4.) Installation
 
