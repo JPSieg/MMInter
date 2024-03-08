@@ -2,7 +2,7 @@
 
 ## A.) Overview
 
-All raw data, code, and intermediate files for the manuscript "Divalent metal cation-metabolite interaction model reveals cation buffering and speciation".
+All raw data, code, and intermediate files for the manuscript "Divalent metal cation-metabolite interaction model reveals cation buffering and speciation". The goal of this repository is to minimally reproduce analysis and figures from the paper. Additional information is provided to help the user understand where the stability constants came from. I also provided instructions for a minimal installation of useful functions as an R package if the user wants to implement them outside of the very specific environment specified in the instructions below. Users should proceed with caution in this advanced scenario. Questions should be directed to JPSieg as an issue request using the issues tab on the main page of MMInter.
 
 Interaction coefficents were parsed out of a MySQL formatted version of NIST46 provided by Dr. Donald R. Burgess Jr. available at:
 
@@ -50,6 +50,24 @@ You will need an R environment with the following packages installed:
     r-ggpmisc
 
 ### 2.) Graphical user interface (ish) implementation
+
+This route assumes that the user does not have very much computational experience. This route uses Rstudio, which is a free integrated development environment for R, and makes the code more accessible to a new R user.
+
+1.) Install R (https://www.r-project.org/). 
+
+2.) Install Rstudio Desktop (https://posit.co/downloads/),
+
+3.) Click "Code" to download the MMInter repository as a zipped directory.
+
+4.) Unzip the file and move it to a convenient place on your computer.
+
+5.) Open Rstudio. Click file, open project, and select the "MMInter.Rproj" file in the MMInter directory on your computer.
+
+6.) Install the dependencis by running the following command in your R console in Rstudio. Note, you should not need to do this again if all of the packages intall properly.
+
+    install.packages("devtools", "tidyverse", "cowplot", "usethis", "nleqslv", "viridis", "ggpmisc", "ggpmisc")
+
+7.) You are now ready to reproduce the figures. For example, click file then open "Figures_Tables/Figure_2/
 
 ### 3.) Bash implementation
 
