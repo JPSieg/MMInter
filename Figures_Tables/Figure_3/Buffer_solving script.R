@@ -2,11 +2,13 @@
 
 library(nleqslv)
 library(tidyverse)
-library(viridis)
 library(cowplot)
 library(ggpmisc)
 library(ggpubr)
 devtools::load_all()
+
+v.c = df.conc$Concentration
+names(v.c) = df.conc$Metabolites
 
 ####Write a solving function####
 
@@ -61,8 +63,8 @@ fn.solving = function(v.c = df.conc$Concentration){
     #Total M2+
     y[33] = (x[1] + x[13] + x[14] + x[15] + x[16] + x[17] + x[18] + x[19] + x[20] - v.c[9])        #Mg
     y[34] = 10*(x[2] + x[21] + x[22] + x[23] + x[24] + x[25] + x[26] + x[27] + x[28] - v.c[10])    #Mn
-    y[35] = 1000*(x[3] + x[29] + x[30] + x[31] + x[32] + x[33] + x[34] + x[35] + x[36] - v.c[11])  #Zn
-    y[36] = 1000*(x[4] + x[37] + x[38] + x[39] + x[40] + x[41] + x[42] + x[43] + x[44] - v.c[12])  #Ca
+    y[35] = 100*(x[3] + x[29] + x[30] + x[31] + x[32] + x[33] + x[34] + x[35] + x[36] - v.c[11])  #Zn
+    y[36] = 10000*(x[4] + x[37] + x[38] + x[39] + x[40] + x[41] + x[42] + x[43] + x[44] - v.c[12])  #Ca
 
 
     #Total metabolites
@@ -126,57 +128,57 @@ fn.solving = function(v.c = df.conc$Concentration){
 
   #### Starting variables for the solution ####
 
-  v.start = c(2,                      #1
-              0.2,                    #2
-              0.0004,                 #3
-              0.000004,               #4
-              100,                    #5
-              16.6,                   #6
-              20,                     #7
-              1,                      #8
-              4,                      #9
-              4,                      #10
-              3.8,                    #11
-              1,                      #12
-              1,                      #13
-              10^-4,                  #14
-              2,                      #15
-              22,                     #16
-              2,                      #17
-              10^-4,                  #18
-              10^-4,                  #19
-              1,                      #20
-              0.01,                   #21
-              0.01,                   #22
-              0.1,                    #23
-              3.0,                    #24
-              0.01,                   #25
-              0.01,                   #26
-              0.01,                   #27
-              0.01,                   #28
-              0.0001,                 #29
-              0.0001,                 #30
-              0.0001,                 #31
-              0.0001,                 #32
-              0.0001,                 #33
-              0.0001,                 #34
-              0.0001,                 #35
-              0.0001,                 #36
-              0.00001,                #37
-              0.00001,                #38
-              0.00001,                #39
-              0.00001,                #40
-              0.00001,                #41
-              0.00001,                #42
-              0.00001,                #43
-              0.00001)                #44
+  v.start = c(2.7,                    #1  "Mg"
+              0.07,                   #2  "Mn"
+              0.00071,                #3  "Zn"
+              0.000078,               #4  "Ca"
+              100,                    #5  "L-Aspartic acid"
+              17,                   #6  "Glutathione"
+              18,                     #7  "Glucose 1-P"
+              0.64,                      #8  "ATP"
+              7.3,                      #9  "AMP"
+              4,                      #10 "L-Alanine"
+              3.8,                    #11 "L-Asparagine"
+              3.5,                      #12 "Pyruvic acid"
+              0.15,                      #13 "L-Asp_Mg"
+              0.00043,                  #14 "Glutathione_Mg"
+              12,                      #15 "Glucose 1-P_Mg"
+              23,                     #16 "ATP_Mg"
+              1.8,                      #17 "AMP_Mg"
+              0.0014,                  #18 "L-Alanine_Mg"
+              0.00001,                  #19 "L-Asparagine_Mg"
+              0.14,                      #20 "Pyruvic acid_Mg"
+              0.072,                   #21 "L-Aspartic acid_Mn"
+              0.0000011,                   #22 "Glutathione_Mn"
+              0.16,                    #23 "Glucose 1-P_Mn"
+              3.6,                    #24 "ATP_Mn"
+              0.12,                   #25 "AMP_Mn"
+              0.00014,                   #26 "L-Alanine_Mn"
+              0.000015,                   #27 "L-Asparagine_Mn"
+              0.0032,                   #28 "Pyruvic acid_Mn"
+              0.11,                 #29 "L-Aspartic acid_Zn"
+              0.044,                 #30 "Glutathione_Zn"
+              0.0023,                 #31 "Glucose 1-P_Zn"
+              0.085,                 #32 "ATP_Zn"
+              0.0022,                 #33 "AMP_Zn"
+              0.0000036,                 #34 "L-Alanine_Zn"
+              0.000023,                 #35 "L-Asparagine_Zn"
+              0.000038,                 #36 "Pyruvic acid_Zn"
+              0.00000088,                #37 "L-Aspartic acid_Ca"
+              0.00000034,                #38 "Glutathione_Ca"
+              0.00011,                #39 "Glucose 1-P_Ca"
+              0.00059,                #40 "ATP_Ca"
+              0.000051,                #41 "AMP_Ca"
+              0.00000011,                #42 "L-Alanine_Ca"
+              0.00000012,                #43 "L-Asparagine_Ca"
+              0.0000026)                #44 "Pyruvic acid_Ca"
 
   #### Solve the equations ####
 
   p = nleqslv(sqrt(v.start),
               fn,
-              control = list(xtol = 10^-15,
-                             ftol = 10^-15,
+              control = list(xtol = 10^-20,
+                             ftol = 10^-20,
                              maxit = 1000000,
                              allowSingular = T))
   ####Format and compile the results####
@@ -235,7 +237,7 @@ fn.solving = function(v.c = df.conc$Concentration){
 ####Test solving function####
 
 df.test = fn.solving()
-df.test
+print(df.test)
 
 ####Define a list of perturbed systems####
 
@@ -264,7 +266,7 @@ for (i in 21:30){
 }
 for (i in 31:40){
   l.v.c[[i]] = v.c
-  l.v.c[[i]][12] = v.Zn.T[(i-30)]
+  l.v.c[[i]][12] = v.Ca.T[(i-30)]
 }
 
 ####Solve the perterbed systems####
@@ -276,17 +278,15 @@ for (i in 1:40){
 
 df = bind_rows(l.df)
 
-
 head(df)
 
 P.Mg = ggplot(df %>%
          filter(M == "Mg") %>%
          filter(L == "free") %>%
          filter(Mn.T == 4) %>%
-         filter(Zn.T == 0.004) %>%
-         filter(Ca.T == 0.0001),
+         filter(Zn.T == 0.24) %>%
+         filter(Ca.T == 0.0005),
        aes(x = Mg.T, y = Conc)) +
-  facet_wrap(~M, ncol = 1, scales = "free") +
   stat_poly_line() +
   geom_point() +
   stat_regline_equation(aes(label = ..eq.label..)) +
@@ -299,10 +299,9 @@ P.Mn = ggplot(df %>%
          filter(M == "Mn") %>%
          filter(L == "free") %>%
          filter(Mg.T == 40) %>%
-         filter(Zn.T == 0.004) %>%
-         filter(Ca.T == 0.0001),
+         filter(Zn.T == 0.24) %>%
+         filter(Ca.T == 0.0005),
        aes(x = Mn.T, y = Conc)) +
-  facet_wrap(~M, ncol = 1, scales = "free") +
   stat_poly_line() +
   geom_point() +
   stat_regline_equation(aes(label = ..eq.label..)) +
@@ -316,35 +315,42 @@ P.Zn = ggplot(df %>%
          filter(L == "free") %>%
          filter(Mg.T == 40) %>%
          filter(Mn.T == 4) %>%
-         filter(Ca.T == 0.0001),
+         filter(Ca.T == 0.0005),
        aes(x = Zn.T, y = Conc)) +
-  facet_wrap(~M, ncol = 1, scales = "free") +
   stat_poly_line() +
   geom_point() +
   stat_regline_equation(aes(label = ..eq.label..)) +
   theme_classic() +
   xlab("Total [Zn2+] (mM)") +
-  ylab("Free [Zn2+] (mM)") +
-  scale_x_continuous(limits = c(0.00275, 0.00625), breaks = c(0.003, 0.004, 0.005, 0.006))
+  ylab("Free [Zn2+] (mM)") 
+  #scale_x_continuous(limits = c(0.00275, 0.00625), breaks = c(0.003, 0.004, 0.005, 0.006))
 
 P.Ca = ggplot(df %>%
          filter(M == "Ca") %>%
          filter(L == "free") %>%
          filter(Mg.T == 40) %>%
          filter(Mn.T == 4) %>%
-         filter(Zn.T == 0.004),
+         filter(Zn.T == 0.24),
        aes(x = Ca.T, y = Conc)) +
-  facet_wrap(~M, ncol = 1, scales = "free") +
   stat_poly_line() +
   geom_point() +
   stat_regline_equation(aes(label = ..eq.label..)) +
   theme_classic() +
   xlab("Total [Ca2+] (mM)") +
-  ylab("Free [Ca2+] (mM)")+
-  scale_x_continuous(limits = c(0.00275, 0.006), breaks = c(0.003, 0.004, 0.005, 0.006))
+  ylab("Free [Ca2+] (mM)")
+  #scale_x_continuous(limits = c(0.00275, 0.006), breaks = c(0.003, 0.004, 0.005, 0.006))
 
 
 P = plot_grid(P.Mg, P.Mn, P.Zn, P.Ca, labels = c("A", "B", "C", "D"), align = "v")
 
 ggsave("Figures_Tables/Figure_3/Figure_3.svg",
        P, width = 5, height = 3.5, scale = 2.0)
+
+print(df %>%
+         filter(M == "Ca") %>%
+         filter(L == "free") %>%
+         filter(Mg.T == 40) %>%
+         filter(Mn.T == 4) %>%
+         filter(Zn.T == 0.24))
+
+print(v.Ca.T)
