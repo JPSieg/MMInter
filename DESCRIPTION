@@ -12,12 +12,4 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.2
 Depends: 
     R (>= 2.10)
-    r-devtools
-    r-tidyverse
-    r-cowplot
-    r-usethis
-    r-nleqslv
-    r-viridis
-    r-ggpmisc
-    r-ggpmisc
 LazyData: true
