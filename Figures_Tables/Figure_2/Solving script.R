@@ -60,50 +60,50 @@ v.names = c("Mg",         #1
 
 #### Starting variables for the solution ####
 
-v.start = c(2,                      #1
-            0.2,                    #2
-            0.0004,                 #3
-            0.000004,               #4
-            100,                    #5
-            16.6,                   #6
-            20,                     #7
-            1,                      #8
-            4,                      #9
-            4,                      #10
-            3.8,                    #11
-            1,                      #12
-            1,                      #13
-            10^-4,                  #14
-            2,                      #15
-            22,                     #16
-            2,                      #17
-            10^-4,                  #18
-            10^-4,                  #19
-            1,                      #20
-            0.01,                   #21
-            0.01,                   #22
-            0.1,                    #23
-            3.0,                    #24
-            0.01,                   #25
-            0.01,                   #26
-            0.01,                   #27
-            0.01,                   #28
-            0.0001,                 #29
-            0.0001,                 #30
-            0.0001,                 #31
-            0.0001,                 #32
-            0.0001,                 #33
-            0.0001,                 #34
-            0.0001,                 #35
-            0.0001,                 #36
-            0.00001,                #37
-            0.00001,                #38
-            0.00001,                #39
-            0.00001,                #40
-            0.00001,                #41
-            0.00001,                #42
-            0.00001,                #43
-            0.00001)                #44
+v.start = c(2.7,                    #1  "Mg"
+            0.07,                   #2  "Mn"
+            0.00071,                #3  "Zn"
+            0.000078,               #4  "Ca"
+            100,                    #5  "L-Aspartic acid"
+            17,                   #6  "Glutathione"
+            18,                     #7  "Glucose 1-P"
+            0.64,                      #8  "ATP"
+            7.3,                      #9  "AMP"
+            4,                      #10 "L-Alanine"
+            3.8,                    #11 "L-Asparagine"
+            3.5,                      #12 "Pyruvic acid"
+            0.15,                      #13 "L-Asp_Mg"
+            0.000043,                  #14 "Glutathione_Mg"
+            12,                      #15 "Glucose 1-P_Mg"
+            23,                     #16 "ATP_Mg"
+            1.8,                      #17 "AMP_Mg"
+            0.0014,                  #18 "L-Alanine_Mg"
+            0.00001,                  #19 "L-Asparagine_Mg"
+            0.14,                      #20 "Pyruvic acid_Mg"
+            0.072,                   #21 "L-Aspartic acid_Mn"
+            0.0000011,                   #22 "Glutathione_Mn"
+            0.16,                    #23 "Glucose 1-P_Mn"
+            3.6,                    #24 "ATP_Mn"
+            0.12,                   #25 "AMP_Mn"
+            0.00014,                   #26 "L-Alanine_Mn"
+            0.000015,                   #27 "L-Asparagine_Mn"
+            0.0032,                   #28 "Pyruvic acid_Mn"
+            0.11,                 #29 "L-Aspartic acid_Zn"
+            0.044,                 #30 "Glutathione_Zn"
+            0.0023,                 #31 "Glucose 1-P_Zn"
+            0.085,                 #32 "ATP_Zn"
+            0.0022,                 #33 "AMP_Zn"
+            0.0000036,                 #34 "L-Alanine_Zn"
+            0.000023,                 #35 "L-Asparagine_Zn"
+            0.000038,                 #36 "Pyruvic acid_Zn"
+            0.00000088,                #37 "L-Aspartic acid_Ca"
+            0.00000034,                #38 "Glutathione_Ca"
+            0.00011,                #39 "Glucose 1-P_Ca"
+            0.00059,                #40 "ATP_Ca"
+            0.000051,                #41 "AMP_Ca"
+            0.00000011,                #42 "L-Alanine_Ca"
+            0.00000012,                #43 "L-Asparagine_Ca"
+            0.0000026)
 
 #### Solve the equations ####
 
@@ -236,10 +236,7 @@ P.bottom = ggplot(df %>% filter(M != "free") %>% filter(L != "free"),
   geom_point() +
   theme_classic() +
   scale_y_continuous(breaks = c(-10^-15, 0, 10^-15), limits = c(-10^-15, 10^-15)) +
-  theme(axis.text.x = element_text(color = "black", angle = 45, hjust = 1),
-        axis.text.y = element_text(color = "black"),
-        axis.title.x = element_blank(),
-        legend.position = "right") +
+  theme() +
   scale_color_manual(values = c("grey", "red", "black", "blue"), name = "") +
   scale_shape(name = "") +
   ylab("Normalized\nresiduals KD")
@@ -250,10 +247,7 @@ P.Top = ggplot(df.M, aes(x = M, y = Norm.resid)) +
   geom_point() +
   theme_classic() +
   scale_y_continuous(limits = c(-10^-15, 10^-15), breaks = c(-10^-15, 0, 10^-15)) +
-  theme(axis.text.x = element_blank(),
-        axis.text.y = element_text(color = "black"),
-        axis.title.x = element_blank(),
-        axis.line.x = element_blank()) +
+  theme() +
   ylab("Normalized\nresiduals")
 P.Top
 
@@ -263,12 +257,8 @@ p.side = ggplot(df.L, aes(x = L, y = Norm.resid)) +
   geom_point() +
   geom_point() +
   theme_classic() +
-  scale_y_continuous(limits = c(-10^-15, 10^-15), breaks = c(-10^-15, 0, 10^-15)) +
-  theme(axis.text.y = element_blank(),
-        axis.text.x = element_text(color = "black"),
-        axis.title.y = element_blank(),
-        axis.line.y = element_blank(),
-        legend.position = "none") +
+  #scale_y_continuous(limits = c(-10^-15, 10^-15), breaks = c(-10^-15, 0, 10^-15)) +
+  theme(legend.position = "none") +
   ylab("Normalized\nresiduals")
 p.side
 
@@ -283,14 +273,15 @@ PA = plot_grid(PA, P.bottom, ncol = 1, rel_heights = c(4, 1), labels = c("A", "B
 C = as.character(df$L)
 
 C[df$L %in% c("L-Aspartic acid", "Glutathione", "L-Alanine", "L-Asparagine", "Pyruvic acid")] = "Amino acid/other\ncarboxylate ligands"
+C[df$L %in% c("Glutathione")] = "Glutathione"
 C[df$L %in% c("Glucose 1-P", "AMP")] = "Mono/Di\nphosphate ligands"
 C[df$L %in% c("ATP")] = "NTP ligands"
 
-df$C = factor(C, levels = c("free", "Amino acid/other\ncarboxylate ligands", "Mono/Di\nphosphate ligands", "NTP ligands"))
+df$C = factor(C, levels = c("free", "Amino acid/other\ncarboxylate ligands", "Glutathione", "Mono/Di\nphosphate ligands", "NTP ligands"))
 
 PB = ggplot(df %>% filter(M != "free"),
        aes(x = C, y = Conc, fill = C)) +
-  facet_wrap(~M, ncol = 1, scales = "free") +
+  facet_wrap(~M, ncol = 1, axis.labels = "margins", scales = "free_y") +
   geom_bar(stat = "identity") +
   theme_classic() +
   theme(axis.text.x = element_text(color = "black", angle = 25, hjust = 1),
@@ -299,9 +290,13 @@ PB = ggplot(df %>% filter(M != "free"),
         legend.position = "none") +
   ylab("Concentration (mM)")
 
+PB
+
 #### Final plot ####
 
-P = plot_grid(P.mid, PB, nrow = 1, labels = c("A", "B"), rel_widths = c(2,1))
+P = plot_grid(P.mid, PB, nrow = 1, labels = c("A", "B"), rel_widths = c(2,1.2))
 
 ggsave("Figures_Tables/Figure_2/Figure_2.svg",
-       P, width = 5, height = 3.5, scale = 2.0)
+       P, width = 5.2, height = 3.5, scale = 1.6)
+
+write.csv(df, "Figures_Tables/Worked_example/Solution.csv", row.names = F)

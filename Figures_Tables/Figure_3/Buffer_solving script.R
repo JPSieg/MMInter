@@ -285,7 +285,7 @@ P.Mg = ggplot(df %>%
          filter(L == "free") %>%
          filter(Mn.T == 4) %>%
          filter(Zn.T == 0.24) %>%
-         filter(Ca.T == 0.0005),
+         filter(Ca.T == 0.0001),
        aes(x = Mg.T, y = Conc)) +
   stat_poly_line() +
   geom_point() +
@@ -300,7 +300,7 @@ P.Mn = ggplot(df %>%
          filter(L == "free") %>%
          filter(Mg.T == 40) %>%
          filter(Zn.T == 0.24) %>%
-         filter(Ca.T == 0.0005),
+         filter(Ca.T == 0.0001),
        aes(x = Mn.T, y = Conc)) +
   stat_poly_line() +
   geom_point() +
@@ -315,14 +315,14 @@ P.Zn = ggplot(df %>%
          filter(L == "free") %>%
          filter(Mg.T == 40) %>%
          filter(Mn.T == 4) %>%
-         filter(Ca.T == 0.0005),
+         filter(Ca.T == 0.0001),
        aes(x = Zn.T, y = Conc)) +
   stat_poly_line() +
   geom_point() +
   stat_regline_equation(aes(label = ..eq.label..)) +
   theme_classic() +
   xlab("Total [Zn2+] (mM)") +
-  ylab("Free [Zn2+] (mM)") 
+  ylab("Free [Zn2+] (mM)")
   #scale_x_continuous(limits = c(0.00275, 0.00625), breaks = c(0.003, 0.004, 0.005, 0.006))
 
 P.Ca = ggplot(df %>%
@@ -344,7 +344,7 @@ P.Ca = ggplot(df %>%
 P = plot_grid(P.Mg, P.Mn, P.Zn, P.Ca, labels = c("A", "B", "C", "D"), align = "v")
 
 ggsave("Figures_Tables/Figure_3/Figure_3.svg",
-       P, width = 5, height = 3.5, scale = 2.0)
+       P, width = 5, height = 3.5, scale = 1.6)
 
 print(df %>%
          filter(M == "Ca") %>%
