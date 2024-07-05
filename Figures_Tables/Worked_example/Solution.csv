@@ -1,0 +1,75 @@
+"M","L","Conc","Kd.s","Kd.obs","norm.resid.Kd","C"
+"Mg","free",2.63466918800078,NA,NA,NA,"free"
+"Mn","free",0.0660674403953528,NA,NA,NA,"free"
+"Zn","free",0.00063732536062865,NA,NA,NA,"free"
+"Ca","free",1.0988382096184e-05,NA,NA,NA,"free"
+"free","L-Aspartic acid",99.9006534806221,NA,NA,NA,"Amino acid/other
+carboxylate ligands"
+"free","Glutathione",16.5577186880224,NA,NA,NA,"Glutathione"
+"free","Glucose 1-P",17.4988777975713,NA,NA,NA,"Mono/Di
+phosphate ligands"
+"free","ATP",0.656150145027744,NA,NA,NA,"NTP ligands"
+"free","AMP",7.37857875185891,NA,NA,NA,"Mono/Di
+phosphate ligands"
+"free","L-Alanine",4.01842626452468,NA,NA,NA,"Amino acid/other
+carboxylate ligands"
+"free","L-Asparagine",3.80857237022729,NA,NA,NA,"Amino acid/other
+carboxylate ligands"
+"free","Pyruvic acid",3.5223074442844,NA,NA,NA,"Amino acid/other
+carboxylate ligands"
+"Mg","L-Aspartic acid",0.148740700556352,1769.557173,1769.557173,-1.28491850341154e-16,"Amino acid/other
+carboxylate ligands"
+"Mg","Glutathione",4.36241112509174e-05,1e+06,1e+06,0,"Glutathione"
+"Mg","Glucose 1-P",12.2513111045111,3.763169,3.763169,0,"Mono/Di
+phosphate ligands"
+"Mg","ATP",23.0961569318166,0.07484962,0.07484962,0,"NTP ligands"
+"Mg","AMP",1.73298521674939,11.21770336,11.21770336,-3.16705974902915e-16,"Mono/Di
+phosphate ligands"
+"Mg","L-Alanine",0.00145919495217478,7255.523909,7255.523909,-1.25352037038257e-16,"Amino acid/other
+carboxylate ligands"
+"Mg","L-Asparagine",1.00343282741089e-05,1e+06,1e+06,2.3283064365387e-16,"Amino acid/other
+carboxylate ligands"
+"Mg","Pyruvic acid",0.134624004974012,68.93358206,68.93358206,-2.06152854538051e-16,"Amino acid/other
+carboxylate ligands"
+"Mn","L-Aspartic acid",0.0744202649201378,88.68794644,88.68794644,-3.20468683414968e-16,"Amino acid/other
+carboxylate ligands"
+"Mn","Glutathione",1.09392609250394e-06,1e+06,1e+06,-2.3283064365387e-16,"Glutathione"
+"Mn","Glucose 1-P",0.157559269051201,7.337594753,7.337594753,-1.21044899534277e-16,"Mono/Di
+phosphate ligands"
+"Mn","ATP",3.5710925778656,0.012139187,0.012139187,-2.85805544634382e-16,"NTP ligands"
+"Mn","AMP",0.126295995491543,3.859851692,3.859851692,0,"Mono/Di
+phosphate ligands"
+"Mn","L-Alanine",0.00011307711189978,2347.841515,2347.841515,1.93687413729229e-16,"Amino acid/other
+carboxylate ligands"
+"Mn","L-Asparagine",0.00140405110045225,179.2118734,179.2118734,0,"Amino acid/other
+carboxylate ligands"
+"Mn","Pyruvic acid",0.00304623013772036,76.39273023,76.39273023,-3.7204730535004e-16,"Amino acid/other
+carboxylate ligands"
+"Zn","L-Aspartic acid",0.106185430125106,0.599604107,0.599604107,0,"Amino acid/other
+carboxylate ligands"
+"Zn","Glutathione",0.0422365458273947,0.249846521,0.249846521,-1.11090502699571e-16,"Glutathione"
+"Zn","Glucose 1-P",0.00223859919986259,4.981900558,4.981900558,1.78281041413779e-16,"Mono/Di
+phosphate ligands"
+"Zn","ATP",0.086531625675342,0.004832697,0.004832697,-1.79477781865572e-16,"NTP ligands"
+"Zn","AMP",0.00213351957843413,2.204130401,2.204130401,4.02960922501302e-16,"Mono/Di
+phosphate ligands"
+"Zn","L-Alanine",1.44846196118468e-06,1768.113376,1768.113376,2.5719354712153e-16,"Amino acid/other
+carboxylate ligands"
+"Zn","L-Asparagine",1.35443021340316e-05,179.2118734,179.2118734,-1.58592781221403e-16,"Amino acid/other
+carboxylate ligands"
+"Zn","Pyruvic acid",2.19614691363938e-05,102.2179276,102.2179276,-1.39025071715522e-16,"Amino acid/other
+carboxylate ligands"
+"Ca","L-Aspartic acid",1.23776296122292e-07,8868.794644,8868.794644,0,"Amino acid/other
+carboxylate ligands"
+"Ca","Glutathione",4.81128347333685e-08,3781.580125,3781.580125,1.20253263412332e-16,"Glutathione"
+"Ca","Glucose 1-P",1.32296664994167e-05,14.53433127,14.53433127,2.44435991777178e-16,"Mono/Di
+phosphate ligands"
+"Ca","ATP",6.87196146824602e-05,0.104919513,0.104919513,-2.64541597859198e-16,"NTP ligands"
+"Ca","AMP",6.5163217244522e-06,12.44239405,12.44239405,2.85532966125639e-16,"Mono/Di
+phosphate ligands"
+"Ca","L-Alanine",1.49492887380377e-08,2953.719337,2953.719337,1.53957535907368e-16,"Amino acid/other
+carboxylate ligands"
+"Ca","L-Asparagine",4.18500484450264e-11,1e+06,1e+06,4.65661287307739e-16,"Amino acid/other
+carboxylate ligands"
+"Ca","Pyruvic acid",3.59134727844869e-07,107.7714213,107.7714213,-1.31861068025109e-16,"Amino acid/other
+carboxylate ligands"

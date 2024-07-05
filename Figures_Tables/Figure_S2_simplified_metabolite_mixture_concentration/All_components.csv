@@ -1,0 +1,75 @@
+M,L,Conc,Mg.T,Mn.T,Zn.T,Ca.T,C,System
+Mg,free,2.63458614312597,40,4,0.24,1e-04,free,All metabolites
+Mn,free,0.0660656124483426,40,4,0.24,1e-04,free,All metabolites
+Zn,free,0.000637320958154983,40,4,0.24,1e-04,free,All metabolites
+Ca,free,1.09881307563417e-05,40,4,0.24,1e-04,free,All metabolites
+free,L-Aspartic acid,99.9006609369493,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+free,Glutathione,16.5573273850827,40,4,0.24,1e-04,Glutathione,All metabolites
+free,Glucose 1-P,17.4991062845327,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+free,ATP,0.656169951691448,40,4,0.24,1e-04,NTP ligands,All metabolites
+free,AMP,7.3786251740201,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+free,L-Alanine,4.01842631363825,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+free,L-Asparagine,3.80857240946958,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+free,Pyruvic acid,3.52231160927918,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Mg,L-Aspartic acid,0.148736023324445,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Mg,Glutathione,0.000436217052959391,40,4,0.24,1e-04,Glutathione,All metabolites
+Mg,Glucose 1-P,12.2510849060064,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+Mg,ATP,23.0961261109122,40,4,0.24,1e-04,NTP ligands,All metabolites
+Mg,AMP,1.7329414957961,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+Mg,L-Alanine,0.00145914897613874,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Mg,L-Asparagine,1.00340120950804e-05,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Mg,Pyruvic acid,0.134619920793727,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Mn,L-Aspartic acid,0.074418211422133,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Mn,Glutathione,1.09386997420321e-06,40,4,0.24,1e-04,Glutathione,All metabolites
+Mn,Glucose 1-P,0.157556966958519,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+Mn,ATP,3.5711015838854,40,4,0.24,1e-04,NTP ligands,All metabolites
+Mn,AMP,0.126293295706424,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+Mn,L-Alanine,0.000113073984693682,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Mn,L-Asparagine,0.00140401226776147,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Mn,Pyruvic acid,0.00304614945675498,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Zn,L-Aspartic acid,0.106184704530682,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Zn,Glutathione,0.0422352558837395,40,4,0.24,1e-04,Glutathione,All metabolites
+Zn,Glucose 1-P,0.00223861296578859,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+Zn,ATP,0.0865336333938369,40,4,0.24,1e-04,NTP ligands,All metabolites
+Zn,AMP,0.00213351826371047,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+Zn,L-Alanine,1.44845197344605e-06,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Zn,L-Asparagine,1.35442087129784e-05,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Zn,Pyruvic acid,2.19613434007789e-05,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Ca,L-Aspartic acid,1.2377347419565e-07,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Ca,Glutathione,4.81105972277748e-08,40,4,0.24,1e-04,Glutathione,All metabolites
+Ca,Glucose 1-P,1.32295366331588e-05,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+Ca,ATP,6.87201171343552e-05,40,4,0.24,1e-04,NTP ligands,All metabolites
+Ca,AMP,6.51621367083312e-06,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,All metabolites
+Ca,L-Alanine,1.49489469845443e-08,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Ca,L-Asparagine,4.1849091630247e-11,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites
+Ca,Pyruvic acid,3.59126937811669e-07,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,All metabolites

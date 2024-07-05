@@ -1,0 +1,10 @@
+M,L,Conc,Mg.T,Mn.T,Zn.T,Ca.T,C,System
+Mg,free,40.0000017294874,40,4,0.24,1e-04,free,Glutathione
+Mn,free,4.00000173388881,40,4,0.24,1e-04,free,Glutathione
+Zn,free,0.0101656882813875,40,4,0.24,1e-04,free,Glutathione
+Ca,free,0.000100005951192759,40,4,0.24,1e-04,free,Glutathione
+free,Glutathione,16.0001695869117,40,4,0.24,1e-04,Glutathione,Glutathione
+Mg,Glutathione,9.83148107811327e-05,40,4,0.24,1e-04,Glutathione,Glutathione
+Mn,Glutathione,9.82734246485906e-05,40,4,0.24,1e-04,Glutathione,Glutathione
+Zn,Glutathione,0.229835038436925,40,4,0.24,1e-04,Glutathione,Glutathione
+Ca,Glutathione,3.91052814560387e-09,40,4,0.24,1e-04,Glutathione,Glutathione

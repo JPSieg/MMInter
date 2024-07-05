@@ -1,0 +1,25 @@
+M,L,Conc,Mg.T,Mn.T,Zn.T,Ca.T,C,System
+Mg,free,13.4117324643585,40,4,0.24,1e-04,free,MonoDiphosphate_ligands
+Mn,free,1.44100798177182,40,4,0.24,1e-04,free,MonoDiphosphate_ligands
+Zn,free,0.0619818065356055,40,4,0.24,1e-04,free,MonoDiphosphate_ligands
+Ca,free,5.82370286277879e-05,40,4,0.24,1e-04,free,MonoDiphosphate_ligands
+free,Glucose 1-P,6.26678957289729,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+free,AMP,3.55789091679727,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+Mg,Glucose 1-P,22.3345018952741,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+Mg,AMP,4.25376564036739,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+Mn,Glucose 1-P,1.2307157998146,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+Mn,AMP,1.32827621841358,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+Zn,Glucose 1-P,0.0779676218663855,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+Zn,AMP,0.100050571598009,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+Ca,Glucose 1-P,2.51101476211044e-05,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands
+Ca,AMP,1.66528237511078e-05,40,4,0.24,1e-04,Mono/Di
+phosphate ligands,MonoDiphosphate_ligands

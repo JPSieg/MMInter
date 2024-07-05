@@ -1,0 +1,10 @@
+M,L,Conc,Mg.T,Mn.T,Zn.T,Ca.T,C,System
+Mg,free,16.516500394975,40,4,0.24,1e-04,free,NTPs only
+Mn,free,0.409547602215231,40,4,0.24,1e-04,free,NTPs only
+Zn,free,0.0104250859627976,40,4,0.24,1e-04,free,NTPs only
+Ca,free,4.9644364882318e-05,40,4,0.24,1e-04,free,NTPs only
+free,ATP,0.106422727517922,40,4,0.24,1e-04,NTP ligands,NTPs only
+Mg,ATP,23.483499605025,40,4,0.24,1e-04,NTP ligands,NTPs only
+Mn,ATP,3.59045239778477,40,4,0.24,1e-04,NTP ligands,NTPs only
+Zn,ATP,0.229574914037202,40,4,0.24,1e-04,NTP ligands,NTPs only
+Ca,ATP,5.0355635117682e-05,40,4,0.24,1e-04,NTP ligands,NTPs only

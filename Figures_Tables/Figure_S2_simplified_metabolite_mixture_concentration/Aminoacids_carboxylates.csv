@@ -1,0 +1,45 @@
+M,L,Conc,Mg.T,Mn.T,Zn.T,Ca.T,C,System
+Mg,free,36.7476164897945,40,4,0.24,1e-04,free,Aminoacids_carboxylates
+Mn,free,1.91526039210912,40,4,0.24,1e-04,free,Aminoacids_carboxylates
+Zn,free,0.00148966272228332,40,4,0.24,1e-04,free,Aminoacids_carboxylates
+Ca,free,9.85426368651757e-05,40,4,0.24,1e-04,free,Aminoacids_carboxylates
+free,L-Aspartic acid,95.9695265631918,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+free,L-Alanine,3.99657637670411,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+free,L-Asparagine,3.77048994302826,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+free,Pyruvic acid,2.35044364014032,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Mg,L-Aspartic acid,1.99349441434701,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Mg,L-Alanine,0.0202461917000655,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Mg,L-Asparagine,0.000138570996919998,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Mg,Pyruvic acid,1.25183918494493,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Mn,L-Aspartic acid,2.07699337884148,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Mn,L-Alanine,0.00325594287196484,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Mn,L-Asparagine,0.0403163197856975,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Mn,Pyruvic acid,0.0601443441014597,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Zn,L-Aspartic acid,0.238441715597456,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Zn,L-Alanine,3.35663840594859e-06,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Zn,L-Asparagine,3.13188271460703e-05,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Zn,Pyruvic acid,3.4211603192357e-05,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Ca,L-Aspartic acid,1.03112703691566e-06,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Ca,L-Alanine,1.32347330434339e-07,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Ca,L-Asparagine,1.32716445889261e-07,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
+Ca,Pyruvic acid,1.90946199201638e-06,40,4,0.24,1e-04,Amino acid/other
+carboxylate ligands,Aminoacids_carboxylates
